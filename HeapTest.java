@@ -9,7 +9,6 @@ public class HeapTest {
            
             
             
-            // taking the input from the file
             int a[] = new int[100];
             try {
                     int i=0;
@@ -24,7 +23,6 @@ public class HeapTest {
                     e.printStackTrace();
             }
             
-            // heap si(Sequential Insertion)
             Heap si = new Heap();
             int cnt = si.sequential_insertion(a);
             try {
@@ -45,7 +43,6 @@ public class HeapTest {
                     p.write("...\n\n");
                     
                     
-                    // heap oi(optimal insertion)
                     Heap oi = new Heap();
                     cnt = oi.optimal_insertion(a);
 
